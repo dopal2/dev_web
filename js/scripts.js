@@ -5,3 +5,11 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+
+window.onresize = function() {
+    const width = window.innerWidth;
+    const height = window.innerHeight;	
+    
+    console.log(width);
+    console.log(height);
+  }
